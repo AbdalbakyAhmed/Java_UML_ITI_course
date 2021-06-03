@@ -97,6 +97,7 @@ public class PyramidDaoImp implements PyramidDao {
         } catch (Exception e) {
             System.out.println(e.toString());
         }
+        // close the file
         try {
             bf.close();
         } catch (Exception e) {
